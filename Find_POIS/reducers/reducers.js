@@ -2,28 +2,6 @@ import { REQUEST_POIS, RECEIVE_POIS } from "../constants/action-types";
 import { REQUEST_LOCATION,ERROR_LOCATION,RECEIVE_LOCATION   } from "../constants/action-types";
 
 
-// const initialState = {  location: [], status:"" };
-  
-//   function locationReducer(state = initialState, action) {
-    
-//     switch (action.type) {
-//       case REQUEST_LOCATION:
-//         state = Object.assign({}, state, {status: "waiting"});
-//         break;
-//       case RECEIVE_LOCATION:
-//         state = Object.assign({}, state, {location: [...action.location], status: "received"});
-//         break;
-//     case ERROR_LOCATION:
-//         state = Object.assign({}, state, {status: "error"});
-//         break;
-//     }
-//     return state;
-//   }
-  
-//   export default locationReducer;
-
-
-
 const initialState = { data: [], location:[]};
   
   function dataReducer(state = initialState, action) {

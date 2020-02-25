@@ -24,18 +24,7 @@ class Main extends React.Component {
     this.getGeoLocation()
   }
 
-//   findlocation = () => {
 
-//     navigator.geolocation.getCurrentPosition(
-//       position => {
-//         const location = JSON.stringify(position);
-//        this.setState({location:{flag:"true",coords:position.coords}});
-
-// },
-//      error => console.log('error in geolocation')
-//     )
-
-// };
 
 getGeoLocation=()=>{
 
@@ -66,7 +55,7 @@ render(){
   return (
       
       <Tab.Navigator  tabBarOptions={{activeTintColor: '#F2FCF5',activeBackgroundColor:'#71947D', labelStyle: {fontSize: 20}
-        // inactiveTintColor: '#F2FCF5',
+        
       }}>
         <Tab.Screen name="List" component={ListScreen}   />
         <Tab.Screen name="Map" component={MapScreen}  />
@@ -80,15 +69,6 @@ function mapStateToProps(state) { //connects a part of the Redux state to the pr
   return {result2:state.locationReducer};
 }
 
-// const styles = StyleSheet.create({
-//     container: {
-//       flex: 1,
-//       alignItems:'center',
-//       justifyContent: 'center',
-//       height:100*vh,
-//     }
-  
-  
-//   });
+
 
   export default connect(mapStateToProps,{findlocation})(Main);

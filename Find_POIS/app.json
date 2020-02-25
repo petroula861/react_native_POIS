@@ -24,7 +24,10 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist":{
+        "NSLocationWhenInUseUsageDescription": "need location access to find things nearby",
+        "NSLocationAlwaysUsageDescription": "Allow Expo experiences to use your location"}
     }
   }
 }

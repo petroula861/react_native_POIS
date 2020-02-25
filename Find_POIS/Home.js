@@ -36,7 +36,6 @@ render(){
       justifyContent: 'center',
       backgroundColor: '#71947D',
       height:100*vh,
-      //  position: 'relative'
     },
     secondpart: {
       alignItems:'center'

@@ -17,7 +17,7 @@ import { getDistance, getPreciseDistance } from 'geolib';
     }
   
     _getDistance(lat,long){
-      var dis = getDistance( //this.props.result2.location.coords.latitude
+      var dis = getDistance( 
         { latitude: this.props.result2.location.coords.latitude, longitude:this.props.result2.location.coords.latitude},
         { latitude: lat, longitude:long }
       );
