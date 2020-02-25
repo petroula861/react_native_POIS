@@ -1,8 +1,8 @@
 # react_native_POIS
 
 # Note !!!
-When running the app you may get error :
-- Unable to resolve "Dimensions" from "node_modules\react-native-viewport-units\viewport-units.js"
+When running the app you may get Error :
+`Unable to resolve "Dimensions" from "node_modules\react-native-viewport-units\viewport-units.js" `
 
 To solve this follow those [steps](https://github.com/jmstout/react-native-viewport-units/issues/4#issuecomment-396980329)
 
