@@ -1,4 +1,4 @@
-# react_native_POIS
+# POIs list
 
 # Note !!!
 When running the app you may get Error :
