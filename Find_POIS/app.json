@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "POIS",
     "slug": "Find_POIS",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -12,13 +12,15 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "backgroundColor": "#71947D",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "enabled":false
     },
     "assetBundlePatterns": [
       "**/*"
@@ -27,12 +29,22 @@
       "supportsTablet": true,
       "infoPlist":{
         "NSLocationWhenInUseUsageDescription": "need location access to find things nearby",
-        "NSLocationAlwaysUsageDescription": "Allow Expo experiences to use your location"}
+        "NSLocationAlwaysUsageDescription": "Allow Expo experiences to use your location"},
+        "config": {
+          "googleMaps": {
+            "apiKey": "AIzaSyBlenci9g0C_166b8sMDxbQ78XFGsr0iSk"
+          }
+        }
     },
       "android": {
-        "icon": "./assets/pois.png",
-        "package": "local.company.applet"
+        "package": "local.company.applet",
+        "config": {
+          "googleMaps": {
+            "apiKey": "AIzaSyBlenci9g0C_166b8sMDxbQ78XFGsr0iSk"
+          }
+        }
       }
+      
   
   }
 }
