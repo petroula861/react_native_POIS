@@ -20,3 +20,7 @@ To solve this follow those [steps](https://github.com/jmstout/react-native-viewp
 - Run the app : `npm start`
 
 - Scan the QR code from the Expo app
+
+# Standalone app build
+
+Download .apk file [here](https://expo.io/artifacts/0c806be7-9306-492b-bd7b-71a29c891cdd)
